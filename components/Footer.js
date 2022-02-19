@@ -20,6 +20,7 @@ const Footer = ({ fullWidth }) => {
         </div>
       </div>
     </div>
+    <script async defer data-website-id="5bbc2f29-92f7-491b-8262-f547c7ee3b50" src="https://web.gpio.ink/umami.js"></script>
   )
 }
 
