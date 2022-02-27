@@ -4,7 +4,7 @@ import BLOG from '@/blog.config'
 const Scripts = () => (
   <>
     {BLOG.analytics && BLOG.analytics.provider === 'ackee' && (
-      <script async defer data-website-id="5bbc2f29-92f7-491b-8262-f547c7ee3b50" src="https://web.gpio.ink/umami.js"></script>
+      <script async defer data-website-id="1c5a5b0d-871e-461f-a37d-9c8dd739d15f" src="https://web.gpio.ink/umami.js"></script>
     )}
     {/* {BLOG.autoCollapsedNavBar === true && (
       <Script strategy="lazyOnload">
