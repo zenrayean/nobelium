@@ -43,10 +43,6 @@ svg + .notion-page-title-text {
   @apply text-gray-600 dark:text-gray-300;
 }
 
-.notion-code > code {
-  @apply text-gray-900;
-}
-
 pre[class*='language-'] {
   line-height: inherit;
 }
@@ -60,6 +56,9 @@ pre[class*='language-'] {
 .notion-asset-caption {
   @apply text-center;
   @apply text-gray-500 dark:text-gray-400;
+}
+.notion-asset-wrapper-tweet iframe {
+  @apply bg-day dark:bg-night;
 }
 .notion-full-width {
   @apply px-0;
